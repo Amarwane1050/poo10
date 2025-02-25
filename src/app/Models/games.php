@@ -8,8 +8,8 @@ class games extends Model
 {
     protected $fillable = [
         'name',
+        'image(url)',
         'year',
         'type',
-        'image_url',
     ];
 }
