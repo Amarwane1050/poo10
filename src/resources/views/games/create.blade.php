@@ -25,7 +25,7 @@
 
         <div class="mb-4">
             <label class="block text-sm">URL de l'image</label>
-            <input type="text" name="image_url" class="w-full bg-gray-700 text-white p-2 rounded">
+            <input type="text" name="images_url" class="w-full bg-gray-700 text-white p-2 rounded">
         </div>
 
         <button type="submit" class="bg-violet-500 hover:bg-violet-600 text-white px-4 py-2 rounded">Enregistrer</button>

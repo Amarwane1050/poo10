@@ -11,7 +11,7 @@ class games extends Model
 
     protected $fillable = [
         'name',
-        'image(url)',
+        'imges_url',
         'year',
         'type',
     ];
