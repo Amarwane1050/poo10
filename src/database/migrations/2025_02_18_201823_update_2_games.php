@@ -12,7 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('games', function (Blueprint $table) {
-            $table->string('images(url)');
+            $table->string('images(url)')->nullable();
+            $table->id();
+            $table->timestamps();
+            $table->string('name');
+            $table->integer('year');
+            $table->string('type');
         });
     }
 
